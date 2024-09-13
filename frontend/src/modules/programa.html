@@ -106,12 +106,8 @@
                             <tr>
                             <th>ID</th>
                             <th>Nombre</th>
-                            <th>Tipo-aterial</th>
-                            <th>Cantidad</th>
+                            <th>Jornada</th>
                             <th>Área</th>
-                            <th>Bodega</th>
-                            <th>Fecha-ingreso</th>
-                            <th>Fecha-caducidad</th>
                             <th>Estado</th>
                             <th>Editar</th>
                             </tr>
@@ -119,10 +115,6 @@
                         <tbody>
                             <tr>
                             <td>1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -139,10 +131,6 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td>
                                 <div class="d-flex justify-content-center form-check form-switch">
                                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
@@ -153,10 +141,6 @@
                             
                             <tr>
                             <td>3</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -173,10 +157,6 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td>
                                 <div class="d-flex justify-content-center form-check form-switch">
                                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
@@ -190,10 +170,6 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td>
                                 <div class="d-flex justify-content-center form-check form-switch">
                                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
@@ -204,10 +180,6 @@
                             
                             <tr>
                             <td>6</td>
-                            <td>arroz</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -249,70 +221,27 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="registrarModalLabel">Registrar Material</h5>
+                                    <h5 class="modal-title" id="registrarModalLabel">Registrar programa</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <form>
                                         <div class="mb-3">
-                                            <input type="text" class="form-control" placeholder="Nombre del Material">
+                                            <input type="text" class="form-control" placeholder="Nombre del programa">
                                         </div>
                                         <div class="row mb-3">
                                             <div class="col">
-                                                
-                                                <div class="col">
                                                     <select class="form-select ">
-                                                        <option selected>Tipo Material
-                                                            <option value="1">Consumible</option>
-                                                            <option value="2">No consumible</option>
-                                                            
-                                                    
-                                                    </option>
-                                                        
+                                                        <option selected>Jornada
+                                                            <option value="1">Completa</option>
+                                                            <option value="2">Mañana</option>
+                                                            <option value="3">Tarde</option>
+                                                        </option>
                                                     </select>
-                                                </div>
-                                                <div class="col">
-                                                    <select class="form-select ">
-                                                        <option selected>Area
-                                                            <option value="1">TIC</option>
-                                                            <option value="2">PAE</option>
-                                                            <option value="3">Ambiental</option>
-                                                            <option value="4">Construccion</option>
-                                                            <option value="5">Gastronomia</option>
-                                                            <option value="6">Turismo</option>
-                                                            
-                                                    
-                                                    </option>
-                                                        
-                                                    </select>
-                                                </div>
                                             </div>
-                                            <div class="col">
-                                                
-                                                <input type="text" class="form-control" placeholder="Cantidad">
-                                            <div class="col">
-                                                <select class="form-select ">
-                                                    <option selected>Bodega
-                                                        <option value="1">Sede Yamboro</option>
-                                                        <option value="2">Sede comercio y servicios</option>
-                                                        
-                                                
-                                                </option>
-                                                    
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <div class="col">
-                                                <input type="text" class="form-control" placeholder="Fecha de ingreso">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <input type="text "  class="form-control" placeholder="Fecha de caducidad">
-                                        </div>
                                         <div class="mb-3">
                                             <select class="form-select">
-                                                <option selected>Estado del material
+                                                <option selected>Estado del programa
                                                     <option value="1">Activo </option>
                                                     <option value="2">Inactivo </option>
                                                     
